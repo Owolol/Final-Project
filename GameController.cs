@@ -104,6 +104,7 @@ public class GameController : MonoBehaviour
         GameoverText.text = "Game Over!";
         gameOver = true;
         MusicSource.clip = LoseMusic;
+        MusicSource.loop = false;
         MusicSource.Play();
     }
 }
